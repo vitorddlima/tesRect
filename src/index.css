@@ -1,0 +1,25 @@
+:root {
+  --texto: rgb(246, 236, 236);
+  --bg: black;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body{
+  background: var(--bg);
+  color: var(--texto);
+}
+
+section{
+  min-height: 100vh;
+  height: auto;
+}
+a{
+  text-decoration: none;
+  
+}
+
